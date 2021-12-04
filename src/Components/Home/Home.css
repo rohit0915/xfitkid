@@ -96,10 +96,13 @@
   cursor: pointer;
   height: 100px;
 }
-.right_icon{
+.right_icon {
   top: -100px;
   position: relative;
   left: 70px;
+}
+.margin_baby_photo {
+  margin-right: 130px;
 }
 @media only screen and (min-width: 280px) and (max-width: 700px) {
   .home_Page_heading {
@@ -129,6 +132,9 @@
     border-radius: 14px 14px 0px 0px;
     height: auto;
     cursor: pointer;
+  }
+  .margin_baby_photo {
+    margin-right: 0px;
   }
 }
 

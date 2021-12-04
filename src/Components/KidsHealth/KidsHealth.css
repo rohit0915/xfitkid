@@ -81,7 +81,17 @@
   line-height: 20px;
   color: #ffffff;
 }
-
+.watch_us {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.icon_color{
+  color: #F68B1F;
+  cursor: pointer;
+}
 @media only screen and (min-width: 280px) and (max-width: 650px) {
   .watch_button {
     width: 100%;

@@ -15,6 +15,7 @@ import c3 from "../images/c3.png";
 import c4 from "../images/c4.png";
 import c5 from "../images/c5.png";
 import c6 from "../images/c6.png";
+import babygirl from "../images/babygirl.png";
 import KidsHealth from '../KidsHealth/KidsHealth';
 
 
@@ -39,7 +40,7 @@ function Home() {
 
                 <div className="mt-2 mb-2">
                     <Grid className="Component_main_grid mt-4 mb-2 p-3 ">
-                        <Grid item md={5}>
+                        <Grid item md={6}>
                             <div><p className="home_Page_heading">India’s 1st 360 degree fitness solution for <span className="heading_content_formatting">kids</span> </p></div>
                             <div className=" mt-2 mb-2 p-2">
                                 <Card className="Card_shadow m-2 p-2">
@@ -72,14 +73,15 @@ function Home() {
                                         <Button className="Button_home_page">Book a FREE Trial</Button>
                                     </div>
                                 </Card>
+                                <span >
+                                    <img src={kid} className="Kid_image" alt="" />
+                                </span>
                             </div>
                         </Grid>
 
-                        <Grid item md={1}>
-                            <span >
-                                <img src={kid} className="Kid_image" alt="" />
-                            </span>
-                        </Grid>
+
+
+
                         <Grid item md={6}>
                             <img src={right_child} alt="" className="right_child_image" />
                             {/* <img src={righticon} alt="" className="right_icon" /> */}
@@ -90,7 +92,7 @@ function Home() {
                 <div className="mt-2 mb-3">
                     <div className="what_we_offer">What we Offer</div>
                     <div className="Tabs_Background_color">
-                        <Grid className="Component_main_grid mt-4 mb-2">
+                        <Grid className="Component_main_grid mt-4">
                             {tabsData.map((item, index) => (
                                 <Grid item md={2} onClick={() => handleHeading(item.heading)}>
                                     <div
@@ -105,6 +107,9 @@ function Home() {
                                 </Grid>
                             ))}
                         </Grid>
+                    </div>
+                    <div className="text-right">
+                        <img src={babygirl} className="margin_baby_photo" alt="" />
                     </div>
                 </div>
 
@@ -148,7 +153,7 @@ function Home() {
                     )}
                 </div> */}
 
-                <div className="mt-2 mb-3">
+                <div className="mb-3">
                     <KidsHealth />
                 </div>
 

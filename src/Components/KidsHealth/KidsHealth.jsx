@@ -69,6 +69,19 @@ function KidsHealth() {
                             <Button className="Learn_more_btn">View More</Button>
                         </div>
 
+                        <div className="mt-4 mb-2">
+                            <span className="watch_us">Watch us on</span>
+                            <span className="ml-3 icon_color">
+                                <i className="fa fa-instagram" />
+                            </span>
+                            <span  className="ml-3 icon_color">
+                                <i className="fa fa-facebook" />
+                            </span>
+                            <span  className="ml-3 icon_color">
+                                <i className="fa fa-youtube" />
+                            </span>
+                        </div>
+
                     </Grid>
                 </Grid>
 
