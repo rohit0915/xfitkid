@@ -15,6 +15,7 @@ import c3 from "../images/c3.png";
 import c4 from "../images/c4.png";
 import c5 from "../images/c5.png";
 import c6 from "../images/c6.png";
+import KidsHealth from '../KidsHealth/KidsHealth';
 
 
 
@@ -41,10 +42,8 @@ function Home() {
                         <Grid item md={5}>
                             <div><p className="home_Page_heading">India’s 1st 360 degree fitness solution for <span className="heading_content_formatting">kids</span> </p></div>
                             <div className=" mt-2 mb-2 p-2">
-
                                 <Card className="Card_shadow m-2 p-2">
                                     <div><p className="form_hadding">Book your <span className="heading_content_formatting">FREE</span> trail  <span className="form_heading2">Limited spots left</span></p> </div>
-
                                     <div>
                                         <input type="text" className="form-control" placeholder="Your champ’s name" />
                                     </div>
@@ -69,7 +68,7 @@ function Home() {
                                         </div>
                                     </div>
 
-                                    <div className="mt-2 mb-2">
+                                    <div className="mt-4 mb-2">
                                         <Button className="Button_home_page">Book a FREE Trial</Button>
                                     </div>
                                 </Card>
@@ -109,7 +108,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="mt-3 mb-3">
+                {/* <div className="mt-3 mb-3">
                     {activetab === "Online Training" && (
                         <div>Online Training:----No Data</div>
                     )}
@@ -147,8 +146,11 @@ function Home() {
                     {activetab === "Merchandise" && (
                         <div>Merchandise::----No Data</div>
                     )}
-                </div>
+                </div> */}
 
+                <div className="mt-2 mb-3">
+                    <KidsHealth />
+                </div>
 
             </div>
         </>
