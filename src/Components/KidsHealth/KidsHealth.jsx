@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Card, Button } from "@material-ui/core";
+import { Grid, Button } from "@material-ui/core";
 
 import "./KidsHealth.css"
 
@@ -14,7 +14,7 @@ import Ellipse4 from "../images/Ellipse4.png";
 function KidsHealth() {
     return (
         <>
-            <div className="mt-2 mb-2">
+            <div className="mt-2">
                 <Grid className="Component_main_grid mt-4 mb-2 p-3 ">
                     <Grid item md={6} className="p-3 crasoul_border">
 
@@ -74,10 +74,10 @@ function KidsHealth() {
                             <span className="ml-3 icon_color">
                                 <i className="fa fa-instagram" />
                             </span>
-                            <span  className="ml-3 icon_color">
+                            <span className="ml-3 icon_color">
                                 <i className="fa fa-facebook" />
                             </span>
-                            <span  className="ml-3 icon_color">
+                            <span className="ml-3 icon_color">
                                 <i className="fa fa-youtube" />
                             </span>
                         </div>
@@ -86,9 +86,9 @@ function KidsHealth() {
                 </Grid>
 
 
-                <div className="mt-3 mb-2">
+                <div className="mt-3">
                     <div className="bottom_links">
-                        <Grid className="Component_main_grid mt-4 mb-2  ">
+                        <Grid className="Component_main_grid mt-4 ">
                             <Grid item md={3} className="p-3 text-center">
                                 <div>
                                     <img src={Ellipse1} alt="" />

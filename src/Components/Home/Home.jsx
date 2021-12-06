@@ -17,7 +17,7 @@ import c5 from "../images/c5.png";
 import c6 from "../images/c6.png";
 import babygirl from "../images/babygirl.png";
 import KidsHealth from '../KidsHealth/KidsHealth';
-
+import Training from '../Trainig/Training';
 
 
 function Home() {
@@ -156,12 +156,15 @@ function Home() {
                         <div>Merchandise::----No Data</div>
                     )}
                 </div> */}
-
-                <div className="mb-3">
-                    <KidsHealth />
-                </div>
-
             </div>
+            <div>
+                <KidsHealth />
+            </div>
+
+            <div className="mb-3">
+                <Training />
+            </div>
+
         </>
     )
 }
