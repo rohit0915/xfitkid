@@ -50,7 +50,6 @@ responsive to mobile view on various screen width as below */
 
 .react-tel-input .form-control {
   width: 100% !important;
-
 }
 .react-tel-input .country-list .country {
   text-align: left !important;
@@ -90,23 +89,22 @@ responsive to mobile view on various screen width as below */
 /* width */
 ::-webkit-scrollbar {
   width: 12px;
-  
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
-  border-radius:25px;
+  background: #888;
+  border-radius: 25px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 /* border color for blank textfeild*/
@@ -114,8 +112,8 @@ responsive to mobile view on various screen width as below */
   border: 1px solid #d9534f;
 }
 
-.input_margin_right{
-  margin-right:5px
+.input_margin_right {
+  margin-right: 5px;
 }
 
 @media screen and (max-height: 450px) {
@@ -140,8 +138,8 @@ responsive to mobile view on various screen width as below */
     margin-left: 3%;
     margin-right: 3%;
   }
-  .input_margin_right{
-    margin-right:0px
+  .input_margin_right {
+    margin-right: 0px;
   }
 }
 
@@ -159,8 +157,8 @@ responsive to mobile view on various screen width as below */
     margin-left: 5%;
     margin-right: 5%;
   }
-  .input_margin_right{
-    margin-right:0px
+  .input_margin_right {
+    margin-right: 0px;
   }
 }
 
@@ -173,4 +171,8 @@ responsive to mobile view on various screen width as below */
     flex-wrap: initial;
     box-sizing: border-box;
   }
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
 }
