@@ -5,109 +5,18 @@
   line-height: 36px;
   color: #000000;
 }
+.home_data {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #8d8d8d;
+
+}
 .heading_content_formatting {
   color: #84b140;
 }
-.form_hadding {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  color: #010000;
-  font-weight: bold;
-}
-.form_heading2 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 10px;
-  text-align: center;
-  color: #acacac;
-}
 
-.textfeild_heading {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #010000;
-  font-weight: bold;
-}
-
-.Button_home_page {
-  font-style: normal !important;
-  font-weight: bold !important;
-  font-size: 12px !important;
-  line-height: 12px !important;
-  text-align: center !important;
-  color: #ffffff !important;
-  width: 100% !important;
-  background: #84b140 !important;
-  border-radius: 4px !important;
-  outline: none !important;
-  text-decoration: none !important;
-  padding: 17px 25px !important;
-  text-transform: capitalize !important;
-}
-
-.MuiCard-root {
-  overflow: visible !important;
-}
-
-.position_form {
-  position: relative;
-}
-
-.position_image {
-  position: absolute;
-  left: 38%;
-  top: 30%;
-  z-index: -100;
-}
-
-.x_child_image {
-  position: absolute;
-  top: 60%;
-  /* left: 38%; */
-}
-
-.right_child_image {
-  width: 70%;
-}
-
-.what_we_offer {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 20px;
-  color: #acacac;
-}
-.Tabs_Background_color {
-  background-color: #84b140;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  cursor: pointer;
-}
-
-.active_tab {
-  background: radial-gradient(
-    98.87% 115.17% at 94.92% 11.59%,
-    #ff9f3f 0%,
-    #f68b1f 100%
-  );
-  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
-  border-radius: 14px 14px 0px 0px;
-  cursor: pointer;
-  height: 100px;
-}
-.right_icon {
-  top: -100px;
-  position: relative;
-  left: 70px;
-}
-.margin_baby_photo {
-  margin-right: 130px;
-}
 @media only screen and (min-width: 280px) and (max-width: 700px) {
   .home_Page_heading {
     font-style: normal;
@@ -116,47 +25,6 @@
     line-height: 36px;
     color: #000000;
   }
-  .position_image {
-    position: absolute;
-    left: 81%;
-    top: 33%;
-    z-index: -100;
-    width: 40px;
-  }
-  .Kid_image {
-    width: 67px;
-  }
-  .right_child_image {
-    width: 90%;
-  }
-  .active_tab {
-    background: radial-gradient(
-      98.87% 115.17% at 94.92% 11.59%,
-      #ff9f3f 0%,
-      #f68b1f 100%
-    );
-    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
-    border-radius: 14px 14px 0px 0px;
-    height: auto;
-    cursor: pointer;
-  }
-  .margin_baby_photo {
-    margin-right: 0px;
-  }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1100px) {
-  .position_image {
-    position: absolute;
-    left: 48%;
-    top: 29%;
-    z-index: -100;
-    width: 40px;
-  }
-  .Kid_image {
-    width: 100px;
-  }
-  .right_child_image {
-    width: 80%;
-  }
-}
+

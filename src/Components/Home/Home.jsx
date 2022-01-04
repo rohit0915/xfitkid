@@ -7,15 +7,16 @@ import 'react-phone-input-2/lib/style.css'
 
 //used css & image
 import "./Home.css";
-import kid from "../images/kid.png";
-import right_child from "../images/right_child.png";
+import y1 from "../images/y1.jpg";
+import y2 from "../images/y2.jpg";
+import y3 from "../images/y3.jpg";
 import c1 from "../images/c1.png";
 import c2 from "../images/c2.png";
 import c3 from "../images/c3.png";
 import c4 from "../images/c4.png";
 import c5 from "../images/c5.png";
 import c6 from "../images/c6.png";
-import babygirl from "../images/babygirl.png";
+import xfit from "../images/xfit.png";
 import KidsHealth from '../KidsHealth/KidsHealth';
 import Training from '../Trainig/Training';
 
@@ -40,130 +41,59 @@ function Home() {
 
                 <div className="mt-2 mb-2">
                     <Grid className="Component_main_grid mt-4 mb-2 p-3 ">
-                        <Grid item md={5}>
-                            <div><p className="home_Page_heading">India’s 1st 360 degree fitness solution for <span className="heading_content_formatting">kids</span> </p></div>
-                            <div>
-                                <div className="position_form mt-2 mb-2 p-2">
-                                    <Card className="Card_shadow m-2 p-2">
-                                        <div><p className="form_hadding">Book your <span className="heading_content_formatting">FREE</span> trail  <span className="form_heading2">Limited spots left</span></p> </div>
-                                        <div>
-                                            <input type="text" className="form-control" placeholder="Your champ’s name" />
-                                        </div>
+                        <Grid item md={5} sm={12}>
+                            <div className='mt-5'><p className="home_Page_heading">India's 1st 360 degree fitness solution for <span className="heading_content_formatting">kids</span> </p></div>
+                            <div className='home_data'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
 
-                                        <div className="mt-3 mb-3">
-                                            <PhoneInput
-                                                country={'in'}
-                                                countryCodeEditable={false}
-                                            // value={phone}
-                                            // onChange={(e) => {
-                                            //     setphoneError(false)
-                                            //     setphone(e)
-                                            // }}
-                                            />
-                                            <div className="form_heading2 text-right">Parent mobile number</div>
-                                        </div>
-
-                                        <div className="mt-3 mb-3">
-                                            <div className="textfeild_heading">Enter your champ’s age</div>
-                                            <div className="mt-1">
-                                                <input type="date" className="form-control" placeholder="Your champ’s name" />
-                                            </div>
-                                        </div>
-
-                                        <div className="mt-4 mb-2">
-                                            <Button className="Button_home_page">Book a FREE Trial</Button>
-                                        </div>
-                                    </Card>
-
-                                </div>
-                                <div className="position_image">
-                                    <img src={kid} className="Kid_image" alt="" />
-                                </div>
+                            <div className='text-right mt-5'>
+                                <span>
+                                    <img src={xfit} alt="" />
+                                </span>
                             </div>
                         </Grid>
 
                         <Grid item md={1}></Grid>
 
-                        <Grid item md={6}>
-                            <div className="text-center">
-                                <img src={right_child} alt="" className="right_child_image" />
+                        <Grid item md={6} sm={12}>
+
+                            <div id="carouselExampleIndicators" className="carousel slide " data-ride="carousel">
+                                <ol className="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                </ol>
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                        <img className="d-block health_crasoul_image" src={y1} alt="First slide" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block health_crasoul_image" src={y2} alt="Second slide" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block health_crasoul_image" src={y3} alt="Third slide" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block health_crasoul_image" src={y3} alt="Third slide" />
+                                    </div>
+                                </div>
+                                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Previous</span>
+                                </a>
+                                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Next</span>
+                                </a>
                             </div>
 
                         </Grid>
                     </Grid>
                 </div>
 
-                <div className="mt-2 mb-3">
-                    <div className="what_we_offer">What we Offer</div>
-                    <div className="Tabs_Background_color">
-                        <Grid className="Component_main_grid mt-4">
-                            {tabsData.map((item, index) => (
-                                <Grid item md={2} onClick={() => handleHeading(item.heading)}>
-                                    <div
-                                        className={`text-white text-center p-3 ${item.heading === activetab
-                                            ? "active_tab"
-                                            : ""
-                                            } `}
-                                    >
-                                        <div><img src={item.image} alt="" /></div>
-                                        <div className="mt-2">{item.heading}</div>
-                                    </div>
-                                </Grid>
-                            ))}
-                        </Grid>
-                    </div>
-                    <div className="text-right">
-                        <img src={babygirl} className="margin_baby_photo" alt="" />
-                    </div>
-                </div>
 
-                {/* <div className="mt-3 mb-3">
-                    {activetab === "Online Training" && (
-                        <div>Online Training:----No Data</div>
-                    )}
-                </div>
-
-                <div className="mt-2 mb-2">
-                    {activetab === "Offline Training" && (
-                        <div>Offline Training-----No Data</div>
-                    )}
-                </div>
-
-
-                <div className="mt-2 mb-2">
-                    {activetab === "Free Content" && (
-                        <div>Free Content:---No Data</div>
-                    )}
-                </div>
-
-
-                <div className="mt-2 mb-2">
-                    {activetab === "Certifications" && (
-                        <div>Certifications:-----No Data</div>
-                    )}
-                </div>
-
-
-                <div className="mt-2 mb-2">
-                    {activetab === "Events" && (
-                        <div>Events:::-----No Data</div>
-                    )}
-                </div>
-
-
-                <div className="mt-2 mb-2">
-                    {activetab === "Merchandise" && (
-                        <div>Merchandise::----No Data</div>
-                    )}
-                </div> */}
-            </div>
-            <div>
-                <KidsHealth />
             </div>
 
-            <div className="mb-3">
-                <Training />
-            </div>
 
         </>
     )

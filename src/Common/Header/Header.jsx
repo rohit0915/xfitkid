@@ -34,15 +34,19 @@ const Header = (props) => {
                     </div>
                     <div className="header_grow" />
                     <div className="header_links">
-
-                        <span className="header_link_color" >Todays WOD</span>
-                        <span className="header_link_color" >
-                            <button className="get_fit_button">Get FIT Now</button>
-                        </span>
-                        <span className="header_link_color">
-                            <Button className="toggle_button"><i class="fa fa-bars"></i></Button>
-                        </span>
+                        <span className="header_link_color" >Training</span>
+                        <span className="header_link_color" >videos</span>
+                        <span className="header_link_color" >Certifications</span>
+                        <span className="header_link_color" >WOD</span>
+                        <span className="header_link_color" >About us</span>
+                        <span className="header_link_color" >Others</span>
                     </div>
+                    <div className="header_grow" />
+                   
+                        <div className="header_link_color" >Hii Sign in,<span className='d-block'>Ujjawal Saini</span></div>
+                        <div className="header_link_color" ></div>
+                        
+                  
                     <div className="mobile_Burger_Menu">
                         <span
                             className="logout_Pointer_cursor mr-3 text-right mt-2"

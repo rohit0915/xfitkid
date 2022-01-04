@@ -17,10 +17,10 @@
 }
 .header_link_color {
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 12px;
   line-height: 28px;
-  color: #84b140;
+  color: black;
   cursor: pointer;
   padding: 0 17px;
   letter-spacing: 0.5px;
