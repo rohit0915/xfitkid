@@ -17,7 +17,12 @@ import c4 from "../images/c4.png";
 import c5 from "../images/c5.png";
 import c6 from "../images/c6.png";
 import xfit from "../images/xfit.png";
-import KidsHealth from '../KidsHealth/KidsHealth';
+import ellipse from '../images/ellipse.png';
+
+//scroll animation
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+import Collaborate from '../Collaborate/Collaborate';
 import Training from '../Trainig/Training';
 
 
@@ -38,17 +43,17 @@ function Home() {
     return (
         <>
             <div className="content_padding">
-
                 <div className="mt-2 mb-2">
                     <Grid className="Component_main_grid mt-4 mb-2 p-3 ">
                         <Grid item md={5} sm={12}>
                             <div className='mt-5'><p className="home_Page_heading">India's 1st 360 degree fitness solution for <span className="heading_content_formatting">kids</span> </p></div>
-                            <div className='home_data'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                            <div className='home_data '>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
 
-                            <div className='text-right mt-5'>
-                                <span>
+                            <div className='text-right mt-5 '>
+                                <ScrollAnimation animateIn='bounceInTop'
+                                    animateOut='bounceOutBottom'>
                                     <img src={xfit} alt="" />
-                                </span>
+                                </ScrollAnimation>
                             </div>
                         </Grid>
 
@@ -68,13 +73,13 @@ function Home() {
                                         <img className="d-block health_crasoul_image" src={y1} alt="First slide" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block health_crasoul_image" src={y2} alt="Second slide" />
+                                        <img className="d-block health_crasoul_image" src={y1} alt="Second slide" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block health_crasoul_image" src={y3} alt="Third slide" />
+                                        <img className="d-block health_crasoul_image" src={y1} alt="Third slide" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block health_crasoul_image" src={y3} alt="Third slide" />
+                                        <img className="d-block health_crasoul_image" src={y1} alt="Third slide" />
                                     </div>
                                 </div>
                                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -90,10 +95,68 @@ function Home() {
                         </Grid>
                     </Grid>
                 </div>
+            </div>
+
+            <div className='mt-2 mb-3'>
+
+                <div className='home_cards_Icons_background'>
+                    <Grid className="Component_main_grid mt-4 mb-2 p-3 ">
+                        <Grid item md={4} sm={12}>
+                            <div className='content_to_icons mt-5 ml-5'>Where Xfit <br />
+                                teams make kids<br />
+                                real champions</div>
+                            <div className='what_offers mt-2 ml-5'>What we offer</div>
+                        </Grid>
+                        <Grid item md={2} sm={12} className='p-2'>
+
+                            <div className='card_border '>
+                                <div className='text-center p-3'>
+                                    <img src={ellipse} alt="" />
+                                    <div className='view_online mt-3 mb-4'>Live Online</div>
+                                </div>
+                            </div>
+                        </Grid>
+                        <Grid item md={2} sm={12} className='p-2'>
+                            <div className='card_border '>
+                                <div className='text-center p-3'>
+                                    <img src={ellipse} alt="" />
+                                    <div className='view_online mt-3 mb-4'>Live Online</div>
+                                </div>
+                            </div>
+                        </Grid>
+
+
+                        <Grid item md={2} sm={12} className='p-2'>
+
+                            <div className='card_border '>
+                                <div className='text-center p-3'>
+                                    <img src={ellipse} alt="" />
+                                    <div className='view_online mt-3 mb-4'>Live Online</div>
+                                </div>
+                            </div>
+                        </Grid>
+
+                        <Grid item md={2} sm={12} className='p-2'>
+                            <div className='card_border '>
+                                <div className='text-center p-3'>
+                                    <img src={ellipse} alt="" />
+                                    <div className='view_online mt-3 mb-4'>Live Online</div>
+                                </div>
+                            </div>
+                        </Grid>
+                    </Grid>
+                </div>
 
 
             </div>
 
+            <div>
+                <Training />
+            </div>
+
+            <div>
+                <Collaborate />
+            </div>
 
         </>
     )

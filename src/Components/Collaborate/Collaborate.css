@@ -1,0 +1,30 @@
+.colloborate_content {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #8d8d8d;
+}
+
+.card_border_collaborate {
+  box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.02) !important;
+  border-radius: 4px !important;
+}
+
+.input_mail {
+  width: 80%;
+}
+
+.email_input input {
+  border: none;
+  outline: none;
+}
+
+.send_data {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #84b140;
+  cursor: pointer;
+}

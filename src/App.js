@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import Header from "./Common/Header/Header.jsx";
 import Home from "./Components/Home/Home";
+import Footer from "./Common/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Redirect to="/" />
       </Switch>
+      <Footer />
     </>
   );
 }

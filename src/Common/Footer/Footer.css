@@ -1,0 +1,45 @@
+.icon_Color {
+  color: #8d8d8d;
+  cursor: pointer;
+}
+
+.get_touch {
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: 700;
+}
+.footer_email {
+  font-size: 12px;
+  line-height: 14px;
+  color: #8d8d8d;
+}
+.Footer_links {
+  font-size: 12px;
+  line-height: 14px;
+  color: #8d8d8d;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.copyright_fooer {
+  font-size: 8px;
+  line-height: 10px;
+  color: #8d8d8d;
+}
+
+.Footer_Button {
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  line-height: 12px !important;
+  text-align: center !important;
+  color: #8d8d8d !important;
+  background: white !important;
+  border-radius: 4px !important;
+  outline: none !important;
+  text-decoration: none !important;
+  padding: 17px 25px !important;
+  text-transform: capitalize !important;
+  border: 1px solid #8d8d8d !important;
+}

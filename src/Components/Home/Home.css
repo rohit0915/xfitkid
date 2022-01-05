@@ -11,12 +11,54 @@
   font-size: 18px;
   line-height: 22px;
   color: #8d8d8d;
-
 }
 .heading_content_formatting {
   color: #84b140;
 }
 
+.home_cards_Icons_background {
+  background: #84b140;
+  width: 100%;
+  height: 203px;
+}
+
+.health_crasoul_image {
+  width: 100%;
+}
+
+.content_to_icons {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.what_offers {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.card_border {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.card_border:hover {
+  background: #78a435;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.view_online {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
 @media only screen and (min-width: 280px) and (max-width: 700px) {
   .home_Page_heading {
     font-style: normal;
@@ -26,5 +68,3 @@
     color: #000000;
   }
 }
-
-

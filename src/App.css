@@ -31,7 +31,7 @@ responsive to mobile view on various screen width as below */
 /* for border of cards*/
 .Card_shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-  border-radius: 16px !important;
+  border-radius: 4px !important;
 }
 
 .hover_cursor {
