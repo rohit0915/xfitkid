@@ -23,7 +23,7 @@ function Training() {
                 <Grid className="Component_main_grid">
                     <Grid item md={6}>
                         <div data-aos="fade-down">
-                            <img src={trainkid} alt="" />
+                            <img src={trainkid} alt="" className='image_height_Training'/>
                         </div>
                     </Grid>
 

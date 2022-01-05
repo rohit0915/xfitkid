@@ -1,0 +1,49 @@
+.image_height_YourChamp {
+  width: 100%;
+}
+
+.train_chap_button {
+  width: 373px;
+  height: 80px;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 12px !important;
+  text-align: center !important;
+  color: #ffffff !important;
+  background: #84b140 !important;
+  border-radius: 4px !important;
+  outline: none !important;
+  text-decoration: none !important;
+  padding: 17px 25px !important;
+  text-transform: capitalize !important;
+}
+
+.quantity_tutorial {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #84b140;
+}
+
+.quantity_Heading {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.watch_now_button {
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 15px !important;
+  line-height: 15px !important;
+  text-align: center !important;
+  color: #ffffff !important;
+  background: #84b140 !important;
+  border-radius: 4px !important;
+  outline: none !important;
+  text-decoration: none !important;
+  padding: 17px 25px !important;
+  text-transform: capitalize !important;
+}

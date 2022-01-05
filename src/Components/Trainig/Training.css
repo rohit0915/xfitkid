@@ -45,3 +45,13 @@
   border-radius: 14px;
   background-image: url("../images/Green_rectangle.png");
 }
+
+.image_height_Training{
+  width: 80%;
+}
+
+@media only screen and (min-width:300px) and (max-width:50px){
+  .image_height_Training{
+    width: 100%;
+  }
+}

@@ -24,6 +24,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import Collaborate from '../Collaborate/Collaborate';
 import Training from '../Trainig/Training';
+import TrainYourChamp from '../TrainYourChamp/TrainYourChamp';
 
 
 function Home() {
@@ -155,8 +156,14 @@ function Home() {
             </div>
 
             <div>
+                <TrainYourChamp />
+            </div>
+
+            <div>
                 <Collaborate />
             </div>
+
+
 
         </>
     )
