@@ -43,7 +43,7 @@ const Header = (props) => {
                     </div>
                     <div className="header_grow" />
                    
-                        <div className="header_link_color" >Hii Sign in,<span className='d-block'>Ujjawal Saini</span></div>
+                        <div className="header_link_color" >Hii Sign in,<span className='d-block'>My fit Kids</span></div>
                         <div className="header_link_color" ></div>
                         
                   

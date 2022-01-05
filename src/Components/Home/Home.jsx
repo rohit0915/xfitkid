@@ -7,7 +7,7 @@ import 'react-phone-input-2/lib/style.css'
 
 //used css & image
 import "./Home.css";
-import y1 from "../images/y1.jpg";
+import y1 from "../images/y1.png";
 import y2 from "../images/y2.jpg";
 import y3 from "../images/y3.jpg";
 import c1 from "../images/c1.png";
