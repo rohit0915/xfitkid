@@ -26,6 +26,7 @@ import Collaborate from '../Collaborate/Collaborate';
 import Training from '../Trainig/Training';
 import TrainYourChamp from '../TrainYourChamp/TrainYourChamp';
 import FitCraousel from '../FitCraousel/FitCraousel';
+import WhyFitKids from '../WhyFitKids/WhyFitKids';
 
 
 function Home() {
@@ -183,6 +184,10 @@ function Home() {
                         <Grid item md={4} sm={12}></Grid>
                     </Grid>
                 </div>
+            </div>
+
+            <div>
+                <WhyFitKids />
             </div>
 
             <div>
