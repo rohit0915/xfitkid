@@ -1,0 +1,32 @@
+.champs_age {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #84b140;
+}
+.rank {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.Fit_bottom_card {
+  background: #ffffff;
+  border: 1px solid #edebeb;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.Fit_card_data {
+  font-size: 18px;
+  line-height: 22px;
+  color: #8d8d8d;
+}
+
+.view_leads {
+  font-size: 14px;
+  line-height: 17px;
+  color: #84b140;
+  cursor: pointer;
+}

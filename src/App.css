@@ -176,3 +176,8 @@ responsive to mobile view on various screen width as below */
 .MuiPaper-elevation4 {
   box-shadow: none !important;
 }
+
+.slick-prev,
+.slick-next {
+  background: black !important;
+}

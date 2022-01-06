@@ -25,6 +25,7 @@ import "animate.css/animate.min.css";
 import Collaborate from '../Collaborate/Collaborate';
 import Training from '../Trainig/Training';
 import TrainYourChamp from '../TrainYourChamp/TrainYourChamp';
+import FitCraousel from '../FitCraousel/FitCraousel';
 
 
 function Home() {
@@ -159,9 +160,36 @@ function Home() {
                 <TrainYourChamp />
             </div>
 
+            <div className='mt-2 mb-5'>
+                <div className='mt-5 text-center'><p className="home_Page_heading">Our Xfit <span className="heading_content_formatting">Champs</span> </p></div>
+                <div className='mt-2 training_content text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br /> eiusmod tempor incididunt.</div>
+
+                <div className='mt-3 mb-4'>
+                    <FitCraousel />
+                </div>
+            </div>
+
+            <div className='mt-2 mb-5'>
+                <div className='play_back_image'>
+                    <Grid className="Component_main_grid mt-4 mb-2 p-3 ">
+                        <Grid item md={5} sm={12}></Grid>
+                        <Grid item md={2} sm={12} className='p-3'>
+                            <div className='Play_Name'>Advik, Age 8</div>
+                            <div className='jr_knight mt-2'>Jr. Knight</div>
+                            <div className='Watch_now mt-2'> Watch how our champ achieved his fitness goals with us</div>
+
+                            <div className='play_icons mt-3'><i class="fa fa-play-circle mr-2"></i>Play</div>
+                        </Grid>
+                        <Grid item md={4} sm={12}></Grid>
+                    </Grid>
+                </div>
+            </div>
+
             <div>
                 <Collaborate />
             </div>
+
+
 
 
 
