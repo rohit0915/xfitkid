@@ -47,3 +47,22 @@
   padding: 17px 25px !important;
   text-transform: capitalize !important;
 }
+
+@media only screen and (min-width:300px) and (max-width:650px){
+  .train_chap_button {
+    width: 100%;
+    height: 80px;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 12px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    background: #84b140 !important;
+    border-radius: 4px !important;
+    outline: none !important;
+    text-decoration: none !important;
+    padding: 17px 25px !important;
+    text-transform: capitalize !important;
+  }
+}

@@ -1,0 +1,33 @@
+.Parent_Image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.parent_Name {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.parnet_child {
+  font-size: 14px;
+  line-height: 17px;
+  color: #8d8d8d;
+}
+
+.Review_Title {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+.review_content {
+  font-size: 16px;
+  line-height: 26px;
+  color: #8d8d8d;
+  text-align: justify;
+}
+.reaviw_star {
+  color: #f68b1f;
+}

@@ -18,6 +18,7 @@ import c5 from "../images/c5.png";
 import c6 from "../images/c6.png";
 import xfit from "../images/xfit.png";
 import ellipse from '../images/ellipse.png';
+import v1 from "../images/v1.png";
 
 //scroll animation
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -27,22 +28,23 @@ import Training from '../Trainig/Training';
 import TrainYourChamp from '../TrainYourChamp/TrainYourChamp';
 import FitCraousel from '../FitCraousel/FitCraousel';
 import WhyFitKids from '../WhyFitKids/WhyFitKids';
+import ParentsReview from '../ParentsReview/ParentsReview';
 
 
 function Home() {
-    const [activetab, setactivetab] = useState("Online Training")
-    const tabsData = [
-        { image: c1, heading: "Online Training" },
-        { image: c2, heading: "Offline Training" },
-        { image: c3, heading: "Free Content" },
-        { image: c4, heading: "Certifications" },
-        { image: c5, heading: "Events" },
-        { image: c6, heading: "Merchandise" },
-        // { image: c7, heading: "Nutrition" },
+
+    const champArr = [
+        { name: "Strenght" },
+        { name: "Stamina" },
+        { name: "Endurance" },
+        { name: "Speed" },
+        { name: "Agility" },
+        { name: "Accuracy" },
+        { name: "Balance" },
+        { name: "Co-ordination" },
+        { name: "Flexibility" },
+        { name: "Mobility" },
     ]
-    const handleHeading = (data) => {
-        setactivetab(data)
-    }
     return (
         <>
             <div className="content_padding">
@@ -188,6 +190,111 @@ function Home() {
 
             <div>
                 <WhyFitKids />
+            </div>
+
+            <div className='mt-5 pb-5'>
+                <div className='training_padding'>
+                    <div className='chap_acqire_heading'>Your champ will aquire</div>
+                    <Grid className="Component_main_grid mt-4 mb-2 p-3 ">
+                        <Grid item md={1} className='p-2'></Grid>
+                        {champArr.map((item, index) => (
+                            <Grid item md={1} className='p-1'>
+                                <div className="Card_champ_onhover" data-toggle="tooltip" data-placement="bottom" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.">
+                                    <div className="text-center">
+                                        <div className='p-2'>
+                                            <div className='champ_acquire_image mx-auto p-2'><img src={v1} alt="" style={{ width: "13px" }} /></div>
+                                            <div className='mt-2 champ_data'>
+                                                {item.name}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Grid>
+                        ))}
+                        <Grid item md={1} className='p-2'></Grid>
+                    </Grid>
+                </div>
+            </div>
+
+            <div>
+                <ParentsReview />
+            </div>
+
+            <div className='mt-2 mb-5'>
+                <div className='training_padding'>
+                    <div className='mt-5 text-center' data-aos="fade-down"><p className="home_Page_heading">There is something <span className="heading_content_formatting">more</span> </p></div>
+                    <div className='mt-2 training_content text-center' data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br /> eiusmod tempor incididunt.</div>
+
+                    <div className='mt-3 mb-4'>
+                        <Grid className="Component_main_grid mt-4 mb-2 p-3 ">
+                            <Grid item md={3} sm={12} className='p-2'>
+                                <Card className="Card_shadow p-5 Card_back_color" data-aos="fade-left">
+                                    <div className="text-center">
+                                        <div className='p-2'>
+                                            <div className='vector_image mx-auto p-2'><img src={v1} alt="" /></div>
+                                            <div className='mt-2 events_data'>
+                                                Career
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Card>
+                            </Grid>
+                            <Grid item md={3} sm={12} className='p-2'>
+                                <Card className="Card_shadow p-5 Card_back_color" data-aos="fade-down">
+                                    <div className="text-center">
+                                        <div className='p-2'>
+                                            <div className='vector_image mx-auto p-2'><img src={v1} alt="" /></div>
+                                            <div className='mt-2 events_data'>
+                                                Career
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Card>
+                            </Grid>
+                            <Grid item md={3} sm={12} className='p-2'>
+                                <Card className="Card_shadow p-5 Card_back_color" data-aos="fade-down">
+                                    <div className="text-center">
+                                        <div className='p-2'>
+                                            <div className='vector_image mx-auto p-2'><img src={v1} alt="" /></div>
+                                            <div className='mt-2 events_data'>
+                                                Career
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Card>
+                            </Grid>
+                            <Grid item md={3} sm={12} className='p-2'>
+                                <Card className="Card_shadow p-5 Card_back_color" data-aos="fade-right">
+                                    <div className="text-center">
+                                        <div className='p-2'>
+                                            <div className='vector_image mx-auto p-2'><img src={v1} alt="" /></div>
+                                            <div className='mt-2 events_data'>
+                                                Career
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Card>
+                            </Grid>
+                        </Grid>
+                    </div>
+                </div>
+            </div>
+
+            <div className='mt-5 pb-5'>
+
+                <div className='make_your_little'>
+                    <Grid className="Component_main_grid mt-4 mb-2 p-3 ">
+                        <Grid item md={8} sm={12}></Grid>
+
+                        <Grid item md={4} sm={12}>
+                            <div className='p-5 make_little_margin'>
+                                <div className='make_little_heading'>Make your little one  worlds fittest on eath!</div>
+                                <div className='make_little_content'>Click to book your free trail now!</div>
+                            </div>
+                        </Grid>
+                    </Grid>
+                </div>
+
             </div>
 
             <div>

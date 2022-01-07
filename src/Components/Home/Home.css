@@ -88,6 +88,74 @@
   color: #ffffff;
   cursor: pointer;
 }
+.vector_image {
+  width: 59px;
+  height: 59px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.events_data {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.Card_back_color:hover {
+  background-color: #84b140 !important;
+  cursor: pointer;
+}
+
+.make_your_little {
+  background-image: url("../images/makelittle.png");
+  width: 100%;
+  height: 330px;
+  background-size: cover;
+}
+
+.make_little_margin {
+  margin-top: 100px;
+}
+
+.make_little_heading {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.make_little_content {
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.chap_acqire_heading {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.champ_acquire_image {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.champ_data {
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.Card_champ_onhover:hover {
+  background-color: #84b140 !important;
+  cursor: pointer;
+  transform: scale(1.1) !important;
+}
 @media only screen and (min-width: 280px) and (max-width: 700px) {
   .home_Page_heading {
     font-style: normal;
